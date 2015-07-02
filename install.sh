@@ -4,7 +4,7 @@ mkdir openvas
 cd openvas
 
 apt-get install build-essential cmake apt-get doxygen bison uuid-dev libldap-2.4-2 libldap2-dev zlib1g-dev libgnutls libgnutls-dev libgnutlsxx28 libgnutls28-dev
-libglib2.0-0 libglib2.0-dev libssh-4 libssh-dev libpcap0.8 libpcap0.8-dev libgpgme11 libgpgme11-dev libmcrypt-dev libmcrypt4 libhiredis-dev libhiredis0.10 libgcrypt20 libgcrypt20-dev pkg-config -y
+libglib2.0-0 libglib2.0-dev libssh-4 libssh-dev libpcap0.8 libpcap0.8-dev libgpgme11 libgpgme11-dev libmcrypt-dev libmcrypt4 libhiredis-dev libhiredis0.10 libgcrypt20 libgcrypt20-dev pkg-config sqlite3 libsqlite3-dev libmicrohttpd-dev libxml2-dev libxslt1-dev-y
 
 wget http://wald.intevation.org/frs/download.php/2067/openvas-libraries-8.0.3.tar.gz
 wget http://wald.intevation.org/frs/download.php/2071/openvas-scanner-5.0.3.tar.gz
